@@ -1,5 +1,10 @@
+import java.util.Scanner;
 public class Firstjava{
   static public void main(String [] args){
     System.out.println("hello world");
+    Scanner in=new Scanner(System.in);
+    int x;
+    System.out.println("Enter a number:");
+    x=in.nextInt();
   }
 }
